@@ -1,0 +1,20 @@
+Packet Capture File (.pcapng):
+A Wireshark capture containing live network traffic, including DNS, TCP, and HTTP/HTTPS packets, saved for offline analysis.
+
+Analysis Report:
+A short report explaining:
+
+How the packet capture was performed
+
+Filters used (DNS, TCP, HTTP/TLS)
+
+Key observations from the captured traffic
+-> Difference between plain-text and encrypted traffic
+
+Final Outcome
+
+Developed the ability to capture and analyze network traffic using Wireshark.
+
+Gained practical understanding of DNS queries, TCP communication, and encrypted vs plain-text traffic.
+
+Improved skills in network monitoring, basic traffic analysis, and cyber security fundamentals.
