@@ -1,0 +1,11 @@
+CIC-IDS: USE
+Dataset	Network attack detection
+
+UNSW-NB15:USE
+Network intrusion analysis
+
+MAWI Dataset:USE
+Real network traffic
+
+DARPA IDS:USE
+Classic intrusion data
