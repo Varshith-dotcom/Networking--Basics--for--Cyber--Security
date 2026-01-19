@@ -1,0 +1,38 @@
+Networking is the process of connecting two or more computers or devices so they can communicate and share data, resources, and services.
+1. IP Address (Internet Protocol)
+
+An IP address is a unique numerical identifier assigned to a device on a network.
+It helps identify where a device is located in a network.
+
+Cyber Security relevance: Used in tracking attackers, configuring firewalls, and detecting suspicious traffic.
+
+2. MAC Address (Media Access Control)
+
+A MAC address is a unique hardware address assigned to a network interface card (NIC).
+Example: 00:1A:2B:3C:4D:5E
+
+Cyber Security relevance: Used in device identification; can be spoofed in attacks.
+
+3. DNS (Domain Name System)
+
+DNS translates human-readable domain names into IP addresses.
+Acts like the phonebook of the internet.
+
+Cyber Security relevance: Target of attacks like DNS spoofing, DNS poisoning, and phishing.
+
+4. TCP (Transmission Control Protocol)
+
+A connection-oriented protocol.
+Ensures reliable data transfer with error checking and sequencing.
+Used by: HTTP, HTTPS, FTP, SMTP
+
+Cyber Security relevance: Exploited in attacks like TCP SYN flood.
+
+UDP (User Datagram Protocol)
+
+A connectionless protocol.
+Faster but less reliable (no error checking).
+Used by: DNS, VoIP, video streaming, online games
+
+Cyber Security relevance: Used in UDP flood attacks and amplification attacks.
+
