@@ -1,0 +1,48 @@
+Installing Wireshark
+1. On Windows
+
+Open browser → go to wireshark.org
+Click Download → Windows Installer (64-bit)
+Run the installer
+During installation:
+
+✅ Select Wireshark
+✅ Install Npcap (mandatory for packet capture)
+
+Click Next → Install → Finish
+
+-> Capturing Live Network Traffic
+Step 1: Open Wireshark
+Launch Wireshark
+
+
+Step 2: Select Network Interface
+
+Choose:
+
+Wi-Fi → if using wireless
+
+Ethernet → if using LAN cable
+
+
+Step 3: Start Capture
+
+Double-click the interface
+
+
+Step 4: Generate Traffic
+
+While capture is running:
+Open a website (google.com)
+Ping a site:
+ping google.com
+
+Step 5: Stop Capture
+
+-> Wireshark uses display filters to show specific packets. 
+1. HTTP Packets
+2. DNS Packets
+3. TCP Packets
+4. UDP Packets
+
+
