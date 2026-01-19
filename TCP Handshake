@@ -1,0 +1,42 @@
+Three-Way TCP Handshake
+
+The three-way TCP handshake is the process used by TCP (Transmission Control Protocol) to establish a reliable connection between a client and a server before data transfer begins.
+Steps of the TCP Handshake
+1️. SYN (Synchronize)
+
+The client sends a SYN packet to the server.
+
+Purpose: Request to start a connection
+
+2. SYN-ACK (Synchronize + Acknowledgment)
+
+The server responds with SYN + ACK.
+Purpose:
+Acknowledge client’s request
+Send server’s own sequence number
+
+3. ACK (Acknowledgment)
+
+The client sends an ACK packet.
+Purpose: Confirm connection establishment
+
+Logical View :
+Client                     Server
+  | ------ SYN ----------> |
+  | <--- SYN + ACK ------- |
+  | ------ ACK ----------> |
+        Connection Established
+
+
+-> Identify plain-text traffic vs encrypted traffic
+
+
+      Plain-Text Traffic                Encrypted Traffic     
+
+ Data is readable                    Data is unreadable           
+ No encryption used                  Encryption (TLS/SSL) used    
+  Low security                        High security                
+  Anyone can sniff data              Sniffed data is protected    
+  Example: HTTP, FTP, Telnet          Example: HTTPS, SSH, SFTP    
+   Visible content in Wireshark        Only metadata visible        
+
